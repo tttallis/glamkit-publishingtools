@@ -30,6 +30,7 @@ DEFAULT_STATUS_CHOICES = {
     'DUMMY': (2, 'Dummy', False),
     'PUBLISHED': (1, 'Published', True),
     'REMOVED': (3, 'Removed', False),
+    'N/A': (4, 'N/A', False),
 }
 
 if not hasattr(settings, 'PUBLISHINGTOOLS_OVERRIDE_PUBLISH_STATUS'):
